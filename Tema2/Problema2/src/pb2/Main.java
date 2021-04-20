@@ -33,14 +33,14 @@ public class Main {
     
     
     private static void addtemp(ArrayList<temp> lista) {
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
         	int id = i ;
             System.out.print(i+" temp : ");
             double temp = 0;
             try {
             temp = (x.nextDouble());
             }catch(Exception e) {
-            	System.err.println("");
+            	System.err.println("nu avem bo$$");
             	System.exit(0);
             }
             lista.add(new temp(id, temp));
