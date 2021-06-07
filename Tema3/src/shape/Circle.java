@@ -14,7 +14,7 @@ public class Circle implements Shape {
 			this.fillColor = fillColor;
 		else
 			throw new IllegalArgumentException(Circle + " : invalid color");
-
+		
 		if (borderWidth > 0)
 			this.borderWidth = borderWidth;
 		else
